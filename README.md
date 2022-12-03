@@ -9,16 +9,16 @@ Having more high cards remaining in the deck favors the player. Each card is ass
     <th>Cards</th>
   </tr>
   <tr>
-    <td>+1</td>
-    <td>2, 3, 4, 5, 6</td>
+    <td align='center'>+1</td>
+    <td align='center'>2, 3, 4, 5, 6</td>
   </tr>
   <tr>
-    <td>0</td>
-    <td>7, 8, 9</td>
+    <td align='center'>0</td>
+    <td align='center'>7, 8, 9</td>
   </tr>
     <tr>
-    <td>-1</td>
-    <td>10, 'J', 'Q', 'K', 'A'</td>
+    <td align='center'>-1</td>
+    <td align='center'>10, 'J', 'Q', 'K', 'A'</td>
   </tr>
 </table> 	            
 <br/>
