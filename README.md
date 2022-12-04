@@ -37,36 +37,36 @@ After: [2,3,4,5,6]
 #### a code with 
 In the game of Golf, each hole has a par, meaning, the average number of strokes a golfer is expected to make in order to sink the ball in the hole to complete the play. Depending on how far above or below par your strokes are, there is a different nickname.<br/>
 Your function will be passed par and strokes arguments. Return the correct string according to this table which lists the strokes in order of priority; top (highest) to bottom (lowest):
-<table align='center'>
-  <tr>
+<table>
+  <tr align='center'>
     <th>Strokes</th>
     <th>Return</th>
   </tr>
-  <tr>
+  <tr align='center'>
     <td>1</td>
     <td>"Hole-in-one!"</td>
   </tr>
-  <tr>
+  <tr align='center'>
     <td> <= par-2</td>
     <td>"Eagle"</td>
   </tr>
-  <tr>
+  <tr align='center'>
     <td>par-1</td>
     <td>"Birdie"</td>
   </tr>
-  <tr>
+  <tr align='center'>
     <td>par</td>
     <td>"Par"</td>
   </tr>
-  <tr>
+  <tr align='center'>
       <td>par+1</td>
       <td>"Bogey"</td>
   </tr>
-  <tr>
+  <tr align='center'>
       <td>par+2</td>
       <td>"Double Bogey"</td>
   </tr>
-  <tr>
+  <tr align='center'>
       <td> >= par+3 </td>
       <td>"Go Home!" </td>
   </tr>
@@ -105,17 +105,17 @@ Having more high cards remaining in the deck favors the player. Each card is ass
     <th>Count Change</th>
     <th >Cards</th>
   </tr>
-  <tr>
-    <td align='center'>+1</td>
-    <td align='center'>2, 3, 4, 5, 6</td>
+  <tr align='center'>
+    <td>+1</td>
+    <td>2, 3, 4, 5, 6</td>
   </tr>
-  <tr>
-    <td align='center'>0</td>
-    <td align='center'>7, 8, 9</td>
+  <tr align='center'>
+    <td>0</td>
+    <td>7, 8, 9</td>
   </tr>
-    <tr>
-    <td align='center'>-1</td>
-    <td align='center'>10, 'J', 'Q', 'K', 'A'</td>
+  <tr align='center'>
+    <td>-1</td>
+    <td>10, 'J', 'Q', 'K', 'A'</td>
   </tr>
 </table> 	            
 
