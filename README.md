@@ -99,6 +99,7 @@ function golfScore(par, strokes) {
 ```
 If you try this code bellow :
 ```console.log(golfScore(4, 6));```
+
 you will get the resul : &nbsp;**Double Bogey**
 
 
