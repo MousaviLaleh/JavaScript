@@ -33,6 +33,7 @@ Do NOT return an array.<br/>
 Do NOT include quotes (single or double) in the output.
 <br/>
 
+```
 let count = 0; <br/>
 function cc(card) { <br/>
   switch (card) { <br/>
@@ -58,5 +59,5 @@ function cc(card) { <br/>
   return count + " " + result; <br/>
 } <br/>
 console.log(cc(7)); <br/>
-
+```
 
