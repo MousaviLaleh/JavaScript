@@ -1,4 +1,4 @@
-## JavaScript Fundamentals
+# JavaScript Fundamentals
 
 ## Stand in Line
 #### __ a code with Array and Function
@@ -177,5 +177,9 @@ Now let's try the code bellow:
 you will get the result : **0 Hold**
 
 <br/>
+
+## JavaScript Objects
+
+
 
 
