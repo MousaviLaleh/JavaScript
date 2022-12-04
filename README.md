@@ -8,7 +8,7 @@ In Computer Science a queue is an abstract Data Structure where items are kept i
 - Add the number to the end of the array, then remove the first element of the array.
 - The nextInLine function should then return the element that was removed.
 ```
-answer : 
+**Aanswer :**
 
 ```
 function nextInLine(arr, item) {
