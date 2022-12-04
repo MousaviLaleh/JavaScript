@@ -26,7 +26,8 @@ console.log("Before: " + JSON.stringify(testArr));
 console.log(nextInLine(testArr, 6));
 console.log("After: " + JSON.stringify(testArr));
 ```
-Yoyr result would be:
+Your result would be:
+
 ```
 Before: [1,2,3,4,5]
 1
@@ -70,7 +71,6 @@ Your function will be passed par and strokes arguments. Return the correct strin
       <td> >= par+3 </td>
       <td>"Go Home!" </td>
   </tr>
-      
 </table> 	
 
 **Note:** par and strokes will always be numeric and positive. We have added an array of all the names for your convenience.
@@ -169,9 +169,10 @@ function cc(card) {
 }
 ```
 <br/>
-Now let's try the code bellow:  <br/>
-console.log(cc(7)); 
-<br/>
+Now let's try the code bellow:
+
+```console.log(cc(7));```
+
 you will get the result : **0 Hold**
 
 <br/>
