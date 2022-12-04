@@ -37,7 +37,7 @@ After: [2,3,4,5,6]
 #### a code with 
 In the game of Golf, each hole has a par, meaning, the average number of strokes a golfer is expected to make in order to sink the ball in the hole to complete the play. Depending on how far above or below par your strokes are, there is a different nickname.<br/>
 Your function will be passed par and strokes arguments. Return the correct string according to this table which lists the strokes in order of priority; top (highest) to bottom (lowest):
-<table>
+<table align='center'>
   <tr>
     <th>Strokes</th>
     <th>Return</th>
@@ -46,7 +46,7 @@ Your function will be passed par and strokes arguments. Return the correct strin
     <td>1</td>
     <td>"Hole-in-one!"</td>
   </tr>
-  <tr align='center'>
+  <tr>
     <td> <= par-2</td>
     <td>"Eagle"</td>
   </tr>
@@ -56,18 +56,18 @@ Your function will be passed par and strokes arguments. Return the correct strin
   </tr>
   <tr>
     <td>par</td>
-    <td align='center'>"Par"</td>
+    <td>"Par"</td>
   </tr>
   <tr>
-      <td align='center'>par+1</td>
+      <td>par+1</td>
       <td>"Bogey"</td>
   </tr>
   <tr>
-      <td align='center'>par+2</td>
+      <td>par+2</td>
       <td>"Double Bogey"</td>
   </tr>
   <tr>
-      <td align='center'> >= par+3 </td>
+      <td> >= par+3 </td>
       <td>"Go Home!" </td>
   </tr>
       
