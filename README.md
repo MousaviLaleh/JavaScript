@@ -59,15 +59,15 @@ Your function will be passed par and strokes arguments. Return the correct strin
     <td align='center'>"Par"</td>
   </tr>
   <tr>
-      <td>par+1</td>
+      <td align='center'>par+1</td>
       <td>"Bogey"</td>
   </tr>
   <tr>
-      <td>par+2</td>
+      <td align='center'>par+2</td>
       <td>"Double Bogey"</td>
   </tr>
   <tr>
-      <td> >= par+3 </td>
+      <td align='center'> >= par+3 </td>
       <td>"Go Home!" </td>
   </tr>
       
@@ -103,7 +103,7 @@ Having more high cards remaining in the deck favors the player. Each card is ass
 <table>
   <tr>
     <th>Count Change</th>
-    <th>Cards</th>
+    <th >Cards</th>
   </tr>
   <tr>
     <td align='center'>+1</td>
