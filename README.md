@@ -33,30 +33,30 @@ Do NOT return an array.<br/>
 Do NOT include quotes (single or double) in the output.
 <br/>
 
-let count = 0;
-function cc(card) {
-  switch (card) {
-    case 2:
-    case 3:
-    case 4:
-    case 5:
-    case 6:
-      count += 1;
-      break;
-    case 10:
-    case 'J':
-    case 'Q':
-    case 'K':
-    case 'A':
-      count -= 1;
-      break;
-  }
-  let result = 'Hold';
-  if (count > 0) {
-    result = 'Bet';
-  }
-  return count + " " + result;
-}
-console.log(cc(7));
+let count = 0; <br/>
+function cc(card) { <br/>
+  switch (card) { <br/>
+    case 2: <br/>
+    case 3: <br/>
+    case 4: <br/>
+    case 5: <br/>
+    case 6: <br/>
+      count += 1; <br/>
+      break; <br/>
+    case 10: <br/>
+    case 'J': <br/>
+    case 'Q': <br/>
+    case 'K': <br/>
+    case 'A': <br/>
+      count -= 1; <br/>
+      break; <br/>
+  } <br/>
+  let result = 'Hold'; <br/>
+  if (count > 0) { <br/>
+    result = 'Bet'; <br/>
+  } <br/>
+  return count + " " + result; <br/>
+} <br/>
+console.log(cc(7)); <br/>
 
 
