@@ -73,8 +73,9 @@ Your function will be passed par and strokes arguments. Return the correct strin
       
 </table> 	
 
-par and strokes will always be numeric and positive. We have added an array of all the names for your convenience.
+**Note:** par and strokes will always be numeric and positive. We have added an array of all the names for your convenience.
 
+**Answer :**
 ```
 const names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home!"];
 function golfScore(par, strokes) {
@@ -132,7 +133,7 @@ Do NOT reset count to 0 when value is 7, 8, or 9.<br/>
 Do NOT return an array.<br/>
 Do NOT include quotes (single or double) in the output.
 ```
-answer :
+**Answer :**
 ```
 let count = 0; 
 function cc(card) { 
