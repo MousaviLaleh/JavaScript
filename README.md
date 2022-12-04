@@ -43,19 +43,19 @@ Your function will be passed par and strokes arguments. Return the correct strin
     <th>Return</th>
   </tr>
   <tr>
-    <td align='center'>1</td>
-    <td align='center'>"Hole-in-one!"</td>
+    <td>1</td>
+    <td>"Hole-in-one!"</td>
+  </tr>
+  <tr align='center'>
+    <td> <= par-2</td>
+    <td>"Eagle"</td>
   </tr>
   <tr>
-    <td align='center'> <= par-2</td>
-    <td align='center'>"Eagle"</td>
+    <td>par-1</td>
+    <td>"Birdie"</td>
   </tr>
   <tr>
-    <td align='center'>par-1</td>
-    <td align='center'>"Birdie"</td>
-  </tr>
-  <tr>
-    <td align='center'>par</td>
+    <td>par</td>
     <td align='center'>"Par"</td>
   </tr>
   <tr>
