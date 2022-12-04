@@ -26,6 +26,7 @@ You will write a card counting function. It will receive a card parameter, which
 
 Example Outputs: -3 Hold or 5 Bet 
 <br/>
+
 **Hint**
 Do NOT reset count to 0 when value is 7, 8, or 9.<br/>
 Do NOT return an array.<br/>
