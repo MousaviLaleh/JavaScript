@@ -1,7 +1,7 @@
 ## JavaScript Fundamentals
 
 ## Stand in Line
-#### -- a code with Array and Function
+#### __ a code with Array and Function
 In Computer Science a queue is an abstract Data Structure where items are kept in order. New items can be added at the back of the queue and old items are taken off from the front of the queue. <br/>
 ```
 - Write a function nextInLine which takes an array (arr) and a number (item) as arguments.
@@ -35,7 +35,7 @@ After: [2,3,4,5,6]
 ```
 
 ## Golf Code
-#### -- a code with array and If statement
+#### __ a code with array and If statement
 In the game of Golf, each hole has a par, meaning, the average number of strokes a golfer is expected to make in order to sink the ball in the hole to complete the play. Depending on how far above or below par your strokes are, there is a different nickname.<br/>
 Your function will be passed par and strokes arguments. Return the correct string according to this table which lists the strokes in order of priority; top (highest) to bottom (lowest):
 <table>
@@ -106,7 +106,7 @@ you will get the result : &nbsp;**Double Bogey**
 
 
 ## Counting Cards
-#### a code with Switch and If statements
+#### __ a code with Switch and If statements
 In the casino game Blackjack, a player can determine whether they have an advantage on the next hand over the house by keeping track of the relative number of high and low cards remaining in the deck. This is called Card Counting. <br/>
 Having more high cards remaining in the deck favors the player. Each card is assigned a value according to the table below. When the count is positive, the player should bet high. When the count is zero or negative, the player should bet low.<br/>
 <table>
