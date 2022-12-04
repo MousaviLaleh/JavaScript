@@ -37,17 +37,42 @@ After: [2,3,4,5,6]
 #### a code with 
 In the game of Golf, each hole has a par, meaning, the average number of strokes a golfer is expected to make in order to sink the ball in the hole to complete the play. Depending on how far above or below par your strokes are, there is a different nickname.<br/>
 Your function will be passed par and strokes arguments. Return the correct string according to this table which lists the strokes in order of priority; top (highest) to bottom (lowest):
-<br/>
-```
-Strokes	Return
-1	"Hole-in-one!"
-<= par - 2	"Eagle"
-par - 1	"Birdie"
-par	"Par"
-par + 1	"Bogey"
-par + 2	"Double Bogey"
->= par + 3	"Go Home!"
-```
+<table>
+  <tr>
+    <th>Strokes</th>
+    <th>Return</th>
+  </tr>
+  <tr>
+    <td align='center'>1</td>
+    <td align='center'>"Hole-in-one!"</td>
+  </tr>
+  <tr>
+    <td align='center'> <= par-2</td>
+    <td align='center'>"Eagle"</td>
+  </tr>
+  <tr>
+    <td align='center'>par-1</td>
+    <td align='center'>"Birdie"</td>
+  </tr>
+  <tr>
+    <td align='center'>par</td>
+    <td align='center'>"Par"</td>
+  </tr>
+  <tr>
+      <td>par+1</td>
+      <td>"Bogey"</td>
+  </tr>
+  <tr>
+      <td>par+2</td>
+      <td>"Double Bogey"</td>
+  </tr>
+  <tr>
+      <td> >= par+3 </td>
+      <td>"Go Home!" </td>
+  </tr>
+      
+</table> 	
+
 par and strokes will always be numeric and positive. We have added an array of all the names for your convenience.
 
 ```
