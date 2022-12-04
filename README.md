@@ -63,7 +63,7 @@ function cc(card) {
 Now let's try the code bellow:  <br/>
 console.log(cc(7)); 
 <br/>
-you will get the result of :  0 Hold
+you will get the result &nbsp; : &nbsp;  0 Hold
 
 <br/>
 
