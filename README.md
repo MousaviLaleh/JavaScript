@@ -8,7 +8,7 @@ In Computer Science a queue is an abstract Data Structure where items are kept i
 - Add the number to the end of the array, then remove the first element of the array.
 - The nextInLine function should then return the element that was removed.
 ```
-<br/>
+answer : 
 
 ```
 function nextInLine(arr, item) {
@@ -63,9 +63,8 @@ player's decision (Bet or Hold) should be separated by a single space. <br/>
 Do NOT reset count to 0 when value is 7, 8, or 9.<br/>
 Do NOT return an array.<br/>
 Do NOT include quotes (single or double) in the output.
-
 ```
-
+answer :
 ```
 let count = 0; 
 function cc(card) { 
