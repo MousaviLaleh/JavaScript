@@ -1,7 +1,7 @@
 ## JavaScript Fundamentals
 
 ## Stand in Line
-### a small code with Array and Function
+#### a code with Array and Function
 In Computer Science a queue is an abstract Data Structure where items are kept in order. New items can be added at the back of the queue and old items are taken off from the front of the queue. <br/>
 ```
 - Write a function nextInLine which takes an array (arr) and a number (item) as arguments.
@@ -28,7 +28,8 @@ console.log("After: " + JSON.stringify(testArr));
 ```
 
 
-## Counting Cards 
+## Counting Cards
+#### a code with Switch and If statements
 In the casino game Blackjack, a player can determine whether they have an advantage on the next hand over the house by keeping track of the relative number of high and low cards remaining in the deck. This is called Card Counting. <br/>
 Having more high cards remaining in the deck favors the player. Each card is assigned a value according to the table below. When the count is positive, the player should bet high. When the count is zero or negative, the player should bet low.<br/>
 <table>
