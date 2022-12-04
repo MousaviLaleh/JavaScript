@@ -1,7 +1,7 @@
 ## JavaScript Fundamentals
 
 ## Stand in Line
-#### a code with Array and Function
+#### -- a code with Array and Function
 In Computer Science a queue is an abstract Data Structure where items are kept in order. New items can be added at the back of the queue and old items are taken off from the front of the queue. <br/>
 ```
 - Write a function nextInLine which takes an array (arr) and a number (item) as arguments.
@@ -34,7 +34,7 @@ After: [2,3,4,5,6]
 ```
 
 ## Golf Code
-#### a code with 
+#### -- a code with array and If statement
 In the game of Golf, each hole has a par, meaning, the average number of strokes a golfer is expected to make in order to sink the ball in the hole to complete the play. Depending on how far above or below par your strokes are, there is a different nickname.<br/>
 Your function will be passed par and strokes arguments. Return the correct string according to this table which lists the strokes in order of priority; top (highest) to bottom (lowest):
 <table>
@@ -78,6 +78,7 @@ Your function will be passed par and strokes arguments. Return the correct strin
 **Answer :**
 ```
 const names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home!"];
+
 function golfScore(par, strokes) {
   if (strokes == 1) {
     return "Hole-in-one!";
@@ -96,6 +97,11 @@ function golfScore(par, strokes) {
   }
 }
 ```
+If you try this code bellow :
+```console.log(golfScore(4, 6));```
+you will get the resul : &nbsp;**Double Bogey**
+
+
 
 ## Counting Cards
 #### a code with Switch and If statements
@@ -164,7 +170,7 @@ function cc(card) {
 Now let's try the code bellow:  <br/>
 console.log(cc(7)); 
 <br/>
-you will get the result &nbsp; : &nbsp;  0 Hold
+you will get the result : **0 Hold**
 
 <br/>
 
