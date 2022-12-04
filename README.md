@@ -9,6 +9,7 @@ In Computer Science a queue is an abstract Data Structure where items are kept i
 - The nextInLine function should then return the element that was removed.
 ```
 <br/>
+
 ```
 function nextInLine(arr, item) {
     // push the new item into the array
