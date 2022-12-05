@@ -227,9 +227,12 @@ function phoneticLookup(val) {
   result = lookup[val];
   return result;
 }
-
+```
+If you check the code with the data below:
+```
 console.log(phoneticLookup("charlie"));
 ```
+your result would be :  ```Chacago```
 
 
 
