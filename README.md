@@ -232,7 +232,7 @@ If you check the code with the data below:
 ```
 console.log(phoneticLookup("charlie"));
 ```
-your result would be :  ```Chacago```
+your result would be :&nbsp;  ```Chacago```
 
 
 
