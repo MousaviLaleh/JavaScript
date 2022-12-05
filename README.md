@@ -178,7 +178,58 @@ you will get the result : **0 Hold**
 
 <br/>
 
+
 ## JavaScript Objects
+
+### Using Objects for Lookups
+convert  the switch statement into an object called "lookup". use it to look up "val" and assignt the strings to the "result" variables:
+
+```
+function phoneticLookup(val) {
+  let result = "";
+  switch(val) {
+    case "alpha":
+      result = "Adams";
+      break;
+    case "bravo":
+      result = "Boston";
+      break;
+    case "charlie":
+      result = "Chicago";
+      break;
+    case "delta":
+      result = "Denver";
+      break;
+    case "echo":
+      result = "Easy";
+      break;
+    case "foxtrot":
+      result = "Frank";
+  }
+  return result;
+}
+```
+
+And the anwer is:
+
+
+```
+function phoneticLookup(val) {
+  var result = "";
+  var lookup = {
+    "alpha" : "Adams",
+    "bravo" : "Boston",
+    "charlie" : "Chicago",
+    "delta" : "Denver",
+    "echo" : "Easy",
+    "foxtrot" : "Frank"
+  };
+  result = lookup[val];
+  return result;
+}
+
+console.log(phoneticLookup("charlie"));
+```
 
 
 
