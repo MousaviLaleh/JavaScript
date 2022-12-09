@@ -372,7 +372,7 @@ is ``` [ 5, 4, 3, 2, 1, 0 ] ```
 ## Iterate with  For Loops
  You can run the same code multiple times by using a loop.
  The most common type of JavaScript loop is called a for loop because it runs for a specific number of times.<br>
- For loops are declared with three optional expressions separated by semicolons:
+ For loops are declared with three optional expressions separated by semicolons:<br/>
     __for (a; b; c)__ :  where a is the initialization statement, b is the condition statement, and c is the final expression.
 <br/>
 - The _initialization statement_ is executed one time only before the loop starts. It is typically used to define and setup your loop variable.
