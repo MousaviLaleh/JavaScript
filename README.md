@@ -383,10 +383,16 @@ The result of this code ```console.log(myArray);``` &nbsp; is ``` [ 5, 4, 3, 2, 
 Example1: Push odd number from 1 to 9 to an array
 
 const ourArray = [];
-for (let i=5; i>=0; i--) {
+for (let i = 9; i <= 0; i-=2) {
     ourArray.push(i);
 }
 ```
+```
+Example2: Iterate Through an Array
 
-
+const arr = [10, 9, 8, 7, 6];
+for (let i = 0; i < arr.length; i++) {
+    console.log(arr[i]);
+}
+```
 
