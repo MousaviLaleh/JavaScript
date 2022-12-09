@@ -369,45 +369,10 @@ The result of this code ```console.log(myArray);``` &nbsp; is ``` [ 5, 4, 3, 2, 
 
 
 ## Iterate with  For Loops
- You can run the same code multiple times by using a loop.
- The most common type of JavaScript loop is called a for loop because it runs for a specific number of times.<br>
- For loops are declared with three optional expressions separated by semicolons:<br/>
-    __for (a; b; c)__ &nbsp;:&nbsp;  where a is the initialization statement, b is the condition statement, and c is the final expression.
-<br/>
-- The _initialization statement_ is executed one time only before the loop starts. It is typically used to define and setup your loop variable.
-- The _condition statement_ is evaluated at the beginning of every loop iteration and will continue as long as it evaluates to true. When the condition is false at the start of the iteration, the loop will stop executing. This means if the condition starts as false, your loop will never execute.
-- The _expression_ is executed at the end of each loop iteration, prior to the next condition check and is usually used to increment or decrement your loop counter.
-<br/>
-
-```
-Example1: Push odd number from 1 to 9 to an array
-
-const ourArray = [];
-for (let i = 9; i <= 0; i-=2) {
-    ourArray.push(i);
-}
-```
-
-```
-Example2: Iterate Through an Array
-
-const arr = [10, 9, 8, 7, 6];
-for (let i = 0; i < arr.length; i++) {
-    console.log(arr[i]);
-}
-```
-
-```
-Example3: add the value of each element of the myArr array to total variable
-
-const myArr = [2, 3, 4, 5, 6];
-var total = 0;
-for (let i=1; i< myArr.length; i++) {
-    total = total + myArr[i];
-}
-```
-
-__Nesting For Loops__
+For loops are declared with three optional expressions separated by semicolons:<br/>
+``` for (a; b; c) ```  &nbsp;:&nbsp;  where a is the initialization statement, b is the condition statement, and c is the final expression.
+    
+### a code for Nested For Loops
 The function returns the product of all the numbers in the sub-arrays of arr.
 
 ```
