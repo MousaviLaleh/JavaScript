@@ -353,7 +353,7 @@ updateRecords(5439, "artist", "ABBA");
 - in the ‘else’ clause, artist: "ABBA" is added to the 5439 id.
 
 
-## Iterate with While Loop
+## Iterate with  While Loop
 You can run the same code multiple times by using a loop.<br>
 The first type of loop we will learn is called a while loop because it runs *while a specified condition is true* and stops once that condition is no longer true.
 <br/>
@@ -365,15 +365,14 @@ while (i >= 0) {
   i--;
 }
 ```
-The result of this code ```console.log(myArray);``` &nbsp; 
-is ``` [ 5, 4, 3, 2, 1, 0 ] ```
+The result of this code ```console.log(myArray);``` &nbsp; is ``` [ 5, 4, 3, 2, 1, 0 ] ```
 
 
 ## Iterate with  For Loops
  You can run the same code multiple times by using a loop.
  The most common type of JavaScript loop is called a for loop because it runs for a specific number of times.<br>
  For loops are declared with three optional expressions separated by semicolons:<br/>
-    __for (a; b; c)__ :  where a is the initialization statement, b is the condition statement, and c is the final expression.
+    __for (a; b; c)__ &nbsp;:&nbsp;  where a is the initialization statement, b is the condition statement, and c is the final expression.
 <br/>
 - The _initialization statement_ is executed one time only before the loop starts. It is typically used to define and setup your loop variable.
 - The _condition statement_ is evaluated at the beginning of every loop iteration and will continue as long as it evaluates to true. When the condition is false at the start of the iteration, the loop will stop executing. This means if the condition starts as false, your loop will never execute.
