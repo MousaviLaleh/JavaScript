@@ -387,6 +387,7 @@ for (let i = 9; i <= 0; i-=2) {
     ourArray.push(i);
 }
 ```
+
 ```
 Example2: Iterate Through an Array
 
@@ -394,5 +395,33 @@ const arr = [10, 9, 8, 7, 6];
 for (let i = 0; i < arr.length; i++) {
     console.log(arr[i]);
 }
+```
+
+```
+Example3: add the value of each element of the myArr array to total variable
+
+const myArr = [2, 3, 4, 5, 6];
+var total = 0;
+for (let i=1; i< myArr.length; i++) {
+    total = total + myArr[i];
+}
+```
+
+__Nesting For Loops__
+The function returns the product of all the numbers in the sub-arrays of arr.
+
+```
+function multiplyAll(arr) {
+    let product = 1;
+    for (let i = 0; i < arr.length; i++) {
+        for (let j = 0; j < arr[i].length; j++) {
+            product *= arr[i][j];
+        }
+    }
+    return product;
+}
+
+var product = multiplyAll([[1, 2], [3, 4], [5, 6, 7]]);
+console.log(product);
 ```
 
