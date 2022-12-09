@@ -377,5 +377,14 @@ The result of this code ```console.log(myArray);``` &nbsp; is ``` [ 5, 4, 3, 2, 
 - The _initialization statement_ is executed one time only before the loop starts. It is typically used to define and setup your loop variable.
 - The _condition statement_ is evaluated at the beginning of every loop iteration and will continue as long as it evaluates to true. When the condition is false at the start of the iteration, the loop will stop executing. This means if the condition starts as false, your loop will never execute.
 - The _expression_ is executed at the end of each loop iteration, prior to the next condition check and is usually used to increment or decrement your loop counter.
+<br/>
+```
+Example1: Push odd number from 1 to 9 to an array
+const ourArray = [];
+for (let i=5; i>=0; i--) {
+    ourArray.push(i);
+}
+```
+
 
 
