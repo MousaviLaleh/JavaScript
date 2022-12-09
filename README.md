@@ -368,10 +368,7 @@ while (i >= 0) {
 The result of this code ```console.log(myArray);``` &nbsp; is ``` [ 5, 4, 3, 2, 1, 0 ] ```
 
 
-## Iterate with  For Loops
-For loops are declared with three optional expressions separated by semicolons:<br/>
-``` for (a; b; c) ```  &nbsp;: &nbsp;  where __a__  is the initialization statement, __b__ is the condition statement, and __c__ is the final expression.
-    
+## Iterate with  For Loops 
 ### a code for Nested For Loops
 The function returns the product of all the numbers in the sub-arrays of arr.
 
