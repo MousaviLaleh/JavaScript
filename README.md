@@ -276,7 +276,8 @@ function updateRecords(records, id, prop, value) {
 updateRecords(recordCollection, 5439, 'artist', 'ABBA');
 ```
 
-**Solution 1 :*
+**Solution 1 :**
+
 ```
 function updateRecords(records, id, prop, value) {
   if (prop !== 'tracks' && value !== "") {
@@ -291,8 +292,10 @@ function updateRecords(records, id, prop, value) {
   return records;
 }
 ```
-**Solution 2** :
+
+__Solution 2 : __
 This solution uses the fact that objects are stored as references to slightly simplify the solution syntax.
+
 ```
 function updateRecords(records, id, prop, value) {
   // Access target album in record collection
@@ -320,7 +323,8 @@ function updateRecords(records, id, prop, value) {
 }
 ```
 
-**Solution 3 :**
+__Solution 3 :__
+
 ```
 function updateRecords(records, id, prop, value) {
   if (value === '') {
