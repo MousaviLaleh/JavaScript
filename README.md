@@ -381,6 +381,7 @@ The result of this code ```console.log(myArray);``` &nbsp; is ``` [ 5, 4, 3, 2, 
 
 ```
 Example1: Push odd number from 1 to 9 to an array
+
 const ourArray = [];
 for (let i=5; i>=0; i--) {
     ourArray.push(i);
