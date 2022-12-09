@@ -353,5 +353,17 @@ updateRecords(5439, "artist", "ABBA");
 - in the ‘else’ clause, artist: "ABBA" is added to the 5439 id.
 
 
-
-
+## While Loop
+ou can run the same code multiple times by using a loop.
+The first type of loop we will learn is called a while loop because it runs *while a specified condition is true* and stops once that condition is no longer true.
+<br/>
+```
+const myArray = [];
+let i = 5;
+while (i >= 0) {
+  myArray.push(i);
+  i--;
+}
+```
+The result of this code ```console.log(myArray); ```
+is ``` [ 5, 4, 3, 2, 1, 0 ] ```
