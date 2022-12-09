@@ -293,7 +293,7 @@ function updateRecords(records, id, prop, value) {
 }
 ```
 
-__Solution 2 : __
+__Solution 2 :__
 This solution uses the fact that objects are stored as references to slightly simplify the solution syntax.
 
 ```
