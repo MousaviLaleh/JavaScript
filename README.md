@@ -365,5 +365,5 @@ while (i >= 0) {
   i--;
 }
 ```
-The result of this code ```console.log(myArray); ```
+The result of this code ```console.log(myArray);``` &nbsp; 
 is ``` [ 5, 4, 3, 2, 1, 0 ] ```
