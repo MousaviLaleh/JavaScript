@@ -1,7 +1,7 @@
 # JavaScript Fundamentals
 
 ## Stand in Line
-#### __ a code with Array and Function
+#### __ a challenge for Array and Function
 In Computer Science a queue is an abstract Data Structure where items are kept in order. New items can be added at the back of the queue and old items are taken off from the front of the queue. <br/>
 ```
 - Write a function nextInLine which takes an array (arr) and a number (item) as arguments.
@@ -35,7 +35,7 @@ After: [2,3,4,5,6]
 ```
 
 ## Golf Code
-#### __ a code with Array and IF statement
+#### __ a challenge for Array and IF statement
 In the game of Golf, each hole has a par, meaning, the average number of strokes a golfer is expected to make in order to sink the ball in the hole to complete the play. Depending on how far above or below par your strokes are, there is a different nickname.<br/>
 Your function will be passed par and strokes arguments. Return the correct string according to this table which lists the strokes in order of priority; top (highest) to bottom (lowest):
 <table>
@@ -106,7 +106,7 @@ you will get the result : &nbsp;**Double Bogey**
 
 
 ## Counting Cards
-#### __ a code with Switch and IF statements
+#### __ a challenge for Switch and IF statements
 In the casino game Blackjack, a player can determine whether they have an advantage on the next hand over the house by keeping track of the relative number of high and low cards remaining in the deck. This is called Card Counting. <br/>
 Having more high cards remaining in the deck favors the player. Each card is assigned a value according to the table below. When the count is positive, the player should bet high. When the count is zero or negative, the player should bet low.<br/>
 <table>
@@ -234,7 +234,7 @@ console.log(phoneticLookup("charlie"));
 your result would be :&nbsp;  ```Chacago```
 
 ## Record Collection
-### a code for JavaScript Objects
+### a challenge for JavaScript Objects
 You are given an object literal representing a part of your musical album collection. Each album has a unique id number as its key and several other properties. Not all albums have complete information.<br/>
 
 You start with an updateRecords function that takes an object literal, records, containing the musical album collection, an id, a prop (like artist or tracks), and a value. Complete the function using the rules below to modify the object passed to the function.<br/>
@@ -370,7 +370,7 @@ The result of this code ```console.log(myArray);``` &nbsp; is ``` [ 5, 4, 3, 2, 
 
 
 ## Iterate with  For Loops 
-### a code for Nested For Loops
+### a challenge for Nested For Loops
 The function returns the product of all the numbers in the sub-arrays of arr.
 
 ```
@@ -389,7 +389,7 @@ console.log(product);
 ```
 
 ## Profile Lookup
-### a code for Using Objects for Lookups
+### a challenge for Using Objects for Lookups
 
 We have an array of objects representing different people in our contacts lists.
 ```
