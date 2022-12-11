@@ -388,3 +388,64 @@ var product = multiplyAll([[1, 2], [3, 4], [5, 6, 7]]);
 console.log(product);
 ```
 
+## Profile Lookup
+### a code for Using Objects for Lookups
+
+We have an array of objects representing different people in our contacts lists.
+```
+const contacts = [
+  {
+    firstName: "Akira",
+    lastName: "Laine",
+    number: "0543236543",
+    likes: ["Pizza", "Coding", "Brownie Points"],
+  },
+  {
+    firstName: "Harry",
+    lastName: "Potter",
+    number: "0994372684",
+    likes: ["Hogwarts", "Magic", "Hagrid"],
+  },
+  {
+    firstName: "Sherlock",
+    lastName: "Holmes",
+    number: "0487345643",
+    likes: ["Intriguing Cases", "Violin"],
+  },
+  {
+    firstName: "Kristian",
+    lastName: "Vos",
+    number: "unknown",
+    likes: ["JavaScript", "Gaming", "Foxes"],
+  },
+];
+```
+Write a lookUpProfile function that takes name and a property (prop) as arguments. The function should check if name is an actual contact's firstName and the given property (prop) is a property of that contact.<br/>
+- If both are true, then return the "value" of that property.
+- If name does not correspond to any contacts then return the string No such contact.
+- If prop does not correspond to any valid properties of a contact found to match name then return the string No such property.
+
+```
+function lookUpProfile(name, prop) {
+
+  // Your Code Here
+
+}
+````
+Finally check the function with ``` console.log(lookUpProfile("Kristian", "likes"));```  to see the result.
+
+__The solution is:__
+
+```
+  function lookUpProfile(name, prop) {
+
+    for (var i=0; i < contacts.length; i++) {
+      if(contacts[i].firstName === name){
+        return contacts[i][prop] || "No Such Property";
+      }
+      return "No Such Contact";
+    }
+  
+  }
+```
+
