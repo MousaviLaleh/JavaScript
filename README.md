@@ -451,7 +451,7 @@ __The solution is:__
 
 ## Use Recursion to Create a Countdown
 
-### First Example:
+### Example 1:
 We have defined a function called countdown with one parameter (n). The function should use recursion to return an array containing the integers n through 1 based on the n parameter. If the function is called with a number less than 1, the function should return an empty array. <br/>
 For example, calling this function with n = 5 should return the array [5, 4, 3, 2, 1]. Your function must use recursion by calling itself and must not use loops of any kind.
 ```
@@ -466,7 +466,7 @@ function countdown(n){
 }
 ```
 
-### Second Example:
+### Example 2:
 Say you want to write a recursive function that returns an array containing the numbers 1 through n. <br/>
 This function will need to accept an argument, n, representing the final number. <br/>
 Then it will need to call itself with progressively smaller values of n until it reaches 1.
@@ -483,4 +483,20 @@ function countup(n) {
 }
 ```
 With the call of ```console.log(countup(5));```&nbsp; &nbsp; the value ```[1, 2, 3, 4, 5]``` will be displayed in the console.
+
+### Example 3:
+We have defined a function named rangeOfNumbers with two parameters. The function should return an array of integers which begins with a number represented by the startNum parameter and ends with a number represented by the endNum parameter. The starting number will always be less than or equal to the ending number. Your function must use recursion by calling itself and not use loops of any kind. It should also work for cases where both startNum and endNum are the same.
+
+```
+function rangeOfNumbers(startNum, endNum) {
+  if (endNum < startNum){
+      return [];
+  } else {
+    const numArray = rangeOfNumbers(startNum, endNum - 1);
+    numArray.push(endNum);
+    return numArray;
+  }
+};
+```
+
 
